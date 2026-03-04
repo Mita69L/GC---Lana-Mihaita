@@ -12,4 +12,4 @@ git add <nume_fisier> / git add. -Pentru a pregati schimbarile local sa ajunga l
 
 git comit -m "Mesaj"
 
-git psuh - Schimbarile ajung in Github
+git push - Schimbarile ajung in Github
