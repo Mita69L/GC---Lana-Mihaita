@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+package="cg.bouncysquare">
+
+<uses-feature android:glEsVersion="0x00010000" android:required="true" />
+
+<application
+    android:allowBackup="true"
+    android:label="BouncySquare">
+
+    <activity
+        android:name=".BouncySquareActivity"
+        android:exported="true">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+    </activity>
+
+</application>
+</manifest>
